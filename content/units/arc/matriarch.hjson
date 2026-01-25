@@ -54,6 +54,10 @@ shoot:{
 shots: 10
 shotDelay: 7
 }
+
+lifeScaleRandMin: 0.9
+lifeScaleRandMax: 1.1
+
 bullet: {
 type: MissileBulletType
 inacurracy: 15
@@ -83,7 +87,7 @@ shotDelay: 0
 }
 bullet: {
 type: ArtilleryBulletType
-inacurracy: 10
+inacurracy: 30
 speed: 4
 knockback: 2
 drag: 0.01
@@ -96,6 +100,9 @@ splashDamage: 5
 status: corroded
 statusDuration: 180
 
+lifeScaleRandMin: 0.9
+lifeScaleRandMax: 1.2
+
       hitEffect: {
           type: ParticleEffect
           particles: 80
@@ -103,10 +110,10 @@ statusDuration: 180
           lifetime: 300
           interp: circleOut
           cone: 180
-          colorFrom: e4ffd6
+          colorFrom: a0b380
           colorTo: a0b380
           sizeFrom: 20
-          sizeTo: 5
+          sizeTo: 0.6
         }
 }
 }
