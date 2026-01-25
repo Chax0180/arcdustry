@@ -66,13 +66,13 @@ knockback: 2
 damage: 180
 width: 6
 height: 11
-lifetime: 60
+lifetime: 180
 splashDamageRadius: 20
 splashDamage: 80
-weaveMag: 50
-weaveScale: 1.5
+weaveMag: 20
+weaveScale: 3.5
 homingPower: 0.2
-homingDelay: 15
+homingDelay: 5
 homingRange: 120
 }
 }
