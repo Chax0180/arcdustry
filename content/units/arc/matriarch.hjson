@@ -38,3 +38,76 @@ abilities: [
       breakSound: shieldBreak
   }
 ]
+
+weapons: [
+{
+name: matriarch-rocket-battery
+reload: 300
+recoil: 8
+mirror: false
+x: 0
+y: -5
+shootY: 8
+top: false
+shootSound: shootMissileLong
+shoot:{
+shots: 10
+shotDelay: 7
+}
+bullet: {
+type: MissileBulletType
+inacurracy: 15
+speed: 5
+knockback: 2
+damage: 180
+width: 6
+height: 11
+lifetime: 60
+splashDamageRadius: 20
+splashDamage: 80
+}
+}
+{
+name: matriarch-gas-launcher
+reload: 600
+recoil: 5
+mirror: false
+x: 0
+y: -5
+shootY: 8
+top: false
+shootSound: shootMissileLong
+shoot:{
+shots: 3
+shotDelay: 0
+}
+bullet: {
+type: ArtilleryBulletType
+inacurracy: 10
+speed: 4
+knockback: 2
+drag: 0.01
+damage: 5
+width: 11
+height: 20
+lifetime: 60
+splashDamageRadius: 80
+splashDamage: 5
+status: corroded
+statusDuration: 180
+
+      hitEffect: {
+          type: ParticleEffect
+          particles: 80
+          length: 40
+          lifetime: 300
+          interp: circleOut
+          cone: 180
+          colorFrom: e4ffd6
+          colorTo: a0b380
+          sizeFrom: 20
+          sizeTo: 5
+        }
+}
+}
+]
