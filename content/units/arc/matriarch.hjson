@@ -1,8 +1,8 @@
 type: legs
 name: Matriarch
 description: Fires barrages of rockets and corrosive gas shells at enemy targets. Capable of briefly producing a large shield which absorbs bullets. Produces Bastions and Bombardiers very slowly.
-speed: 1.5
-accel: 0.005
+speed: 2
+accel: 0.025
 drag: 0.04
 rotateSpeed: 1.85
 flying: false
