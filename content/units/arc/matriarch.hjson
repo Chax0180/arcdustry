@@ -60,7 +60,7 @@ lifeScaleRandMax: 1.1
 
 bullet: {
 type: MissileBulletType
-inacurracy: 15
+inaccuracy: 15
 speed: 5
 knockback: 2
 damage: 180
@@ -87,14 +87,14 @@ shotDelay: 0
 }
 bullet: {
 type: ArtilleryBulletType
-inacurracy: 30
+inaccuracy: 30
 speed: 4
 knockback: 2
 drag: 0.01
 damage: 5
 width: 11
 height: 20
-lifetime: 60
+lifetime: 70
 splashDamageRadius: 80
 splashDamage: 5
 status: corroded
