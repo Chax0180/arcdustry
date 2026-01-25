@@ -24,7 +24,7 @@ shadowElevation: 0.7
 abilities: [
   {
   type: ForceFieldAbility
-      radius: 180
+      radius: 120
       sides: 6
       regen: 0.05
       max: 500
