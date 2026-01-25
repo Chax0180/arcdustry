@@ -32,3 +32,4 @@ abilities: [
       cooldown: 1200
       breakSound: shieldBreak
   }
+]
