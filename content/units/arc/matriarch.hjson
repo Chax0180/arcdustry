@@ -69,7 +69,7 @@ height: 11
 lifetime: 60
 splashDamageRadius: 20
 splashDamage: 80
-weaveMag: 0.8
+weaveMag: 50
 weaveScale: 1.5
 homingPower: 0.2
 homingDelay: 15
