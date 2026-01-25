@@ -1,0 +1,15 @@
+name: arcdustry
+description:'''
+Adds content from Arc Raiders to Mindustry.
+'''
+author: Chax0180
+minGameVersion: 146
+version: I'm really not going to remember to update this.
+displayName: "Arcdustry"
+subtitle: "Rats not included"
+repo: "Chax0180/arcdustry"
+
+minGameVersion: 136
+version: 1.0
+hidden: true
+hideBrowser: false
