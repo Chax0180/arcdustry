@@ -25,7 +25,6 @@ legSpeed: 0.06
 legSplashDamage: 80
 legSplashRange: 3
 legContinuousMove: true
-legGroupSize: 1
 
 abilities: [
   {
