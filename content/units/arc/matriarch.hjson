@@ -69,6 +69,8 @@ height: 11
 lifetime: 60
 splashDamageRadius: 20
 splashDamage: 80
+weaveMag: 0.8
+weaveScale: 1.5
 }
 }
 {
@@ -94,14 +96,14 @@ drag: 0.01
 damage: 5
 width: 11
 height: 20
-lifetime: 70
-splashDamageRadius: 80
+lifetime: 90
+splashDamageRadius: 50
 splashDamage: 5
 status: corroded
 statusDuration: 180
 
-lifeScaleRandMin: 0.9
-lifeScaleRandMax: 1.2
+lifeScaleRandMin: 0.6
+lifeScaleRandMax: 1.5
 
       hitEffect: {
           type: ParticleEffect
