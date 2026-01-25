@@ -11,15 +11,21 @@ health: 35000
 armor: 22
 stepShake: 1.5
 stepSound: walkerStep
+stepShake: 1.5
 hitSize: 29
 drownTimeMultiplier: 6
 
 legCount: 6
 legLength: 62
 legBaseOffset: 11
-legMoveSpace: 0.6
+legMoveSpace: 1
 legForwardScl: 0.5
 shadowElevation: 0.7
+legSpeed: 0.06
+legSplashDamage: 80
+legSplashRange: 3
+legContinuousMove: true
+legGroupSize: 1
 
 abilities: [
   {
