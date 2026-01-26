@@ -16,15 +16,15 @@ hitSize: 29
 drownTimeMultiplier: 6
 
 legCount: 6
-legLength: 62
-legBaseOffset: 11
-legMoveSpace: 1.25
+legLength: 115
+legBaseOffset: 20
+legMoveSpace: 1.4
 legForwardScl: 0.5
 shadowElevation: 0.7
 legSpeed: 0.06
-legSplashDamage: 80
-legSplashRange: 3
-legContinuousMove: true
+legSplashDamage: 180
+legSplashRange: 5
+legContinuousMove: false
 legGroupSize: 2
 
 abilities: [
