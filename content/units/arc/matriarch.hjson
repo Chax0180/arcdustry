@@ -46,7 +46,7 @@ reload: 300
 recoil: 8
 mirror: false
 x: 0
-y: -5
+y: -10
 shootY: 8
 top: false
 shootSound: shootMissileLong
@@ -80,16 +80,12 @@ homingRange: 120
 name: matriarch-gas-launcher
 reload: 600
 recoil: 5
-mirror: false
-x: 0
-y: -5
-shootY: 8
+mirror: true
+x: 10
+y: 5
+shootY: 4
 top: false
-shootSound: shootMissileLong
-shoot:{
-shots: 3
-shotDelay: 0
-}
+shootSound: shootMerui
 bullet: {
 type: ArtilleryBulletType
 inaccuracy: 30
