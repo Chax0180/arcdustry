@@ -95,7 +95,7 @@ damage: 5
 width: 11
 height: 20
 lifetime: 90
-splashDamageRadius: 50
+splashDamageRadius: 70
 splashDamage: 5
 status: corroded
 statusDuration: 180
@@ -106,7 +106,7 @@ lifeScaleRandMax: 1.5
       hitEffect: {
           type: ParticleEffect
           particles: 80
-          length: 40
+          length: 80
           lifetime: 300
           interp: circleOut
           cone: 180
