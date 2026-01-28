@@ -65,7 +65,7 @@ top: false
 shootSound: shootRipple
 bullet: {
 type: ArtilleryBulletType
-speed: 12
+speed: 6
 knockback: 3
 drag: 0.01
 damage: 180
