@@ -29,13 +29,16 @@ legGroupSize: 2
 weapons: [
 {
 name: queen-laser
+shoot: {
+shots: 180
+}
 reload: 300
 continuous: true
 recoil: 8
 mirror: false
 x: 0
 y: -25
-shootY: 8
+shootY: 15
 top: false
 shootSound: beamLustre
   
