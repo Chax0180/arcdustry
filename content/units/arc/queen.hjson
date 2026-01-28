@@ -1,0 +1,76 @@
+type: legs
+name: Queen
+description: Fires a deadly beam of plasma and a barrage of artillery shells at enemy targets.
+speed: 2.5
+accel: 0.025
+drag: 0.03
+rotateSpeed: 2.15
+flying: false
+
+health: 21000
+armor: 19
+stepShake: 1
+stepSound: walkerStep
+hitSize: 18
+drownTimeMultiplier: 4
+
+legCount: 6
+legLength: 55
+legBaseOffset: 10
+legMoveSpace: 1.2
+legForwardScl: 0.4
+shadowElevation: 0.6
+legSpeed: 0.08
+legSplashDamage: 160
+legSplashRange: 5
+legContinuousMove: false
+legGroupSize: 2
+
+weapons: [
+{
+name: queen-laser
+reload: 300
+continuous: true
+recoil: 8
+mirror: false
+x: 0
+y: -25
+shootY: 8
+top: false
+shootSound: beamLustre
+  
+bullet: {
+  type: PointLaserBulletType
+  damage: 36
+  sprite: "drill-laser-boost"
+  damageInterval: 1
+  knockback: -5
+  targetBlocks: false
+  collidesTiles: false
+  collidesGround: false
+}
+}
+{
+name: queen-artillery
+reload: 60
+recoil: 3
+mirror: true
+x: 8
+y: -10
+top: false
+shootSound: shootRipple
+bullet: {
+type: ArtilleryBulletType
+speed: 12
+knockback: 3
+drag: 0.01
+damage: 180
+width: 11
+height: 20
+lifetime: 120
+splashDamageRadius: 70
+splashDamage: 60
+status: blasted
+}
+}
+]
