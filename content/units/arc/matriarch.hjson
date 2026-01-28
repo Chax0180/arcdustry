@@ -16,7 +16,7 @@ hitSize: 29
 drownTimeMultiplier: 6
 
 legCount: 6
-legLength: 115
+legLength: 70
 legBaseOffset: 20
 legMoveSpace: 1.4
 legForwardScl: 0.5
