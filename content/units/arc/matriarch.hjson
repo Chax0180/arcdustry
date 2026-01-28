@@ -113,7 +113,7 @@ lifeScaleRandMax: 1.5
           colorFrom: a0b380
           colorTo: a0b380
           sizeFrom: 20
-          sizeTo: 0.6
+          sizeTo: 0
         }
 }
 }
