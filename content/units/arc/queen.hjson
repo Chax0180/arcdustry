@@ -31,6 +31,7 @@ weapons: [
 name: queen-laser
 shoot: {
 shots: 180
+shotDelay: 1
 }
 reload: 300
 continuous: true
